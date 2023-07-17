@@ -1,0 +1,57 @@
+<style>
+    body {
+        --bs-primary: #0f161d;
+        background-color: var(--bs-primary);
+        color: var(--bs-secondary);
+    }
+
+    .jumbotron {
+        background-color: var(--bs-primary);
+    }
+
+    .logoMass {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #enlaces li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .titulos {
+        color: var(--bs-secondary);
+        font-weight: bold;
+    }
+
+    .parrafos {
+        color: var(--bs-secondary);
+    }
+
+    .carousel-item img {
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    #foot {
+        background-color: var(--bs-primary);
+        color: var(--bs-secondary);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+    }
+
+    .carousel-caption h3,
+    .carousel-caption p {
+        margin: 0;
+    }
+</style>
